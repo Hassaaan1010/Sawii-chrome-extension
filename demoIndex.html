@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="..\bootstrap\bootstrap.min.css" />
+  </head>
+  <body style="background-color: #212121">
+    <div class="container">
+      <div class="row" style="margin: 5%">
+        <!-- SAWII -->
+        <div
+          class="col-12 text-center"
+          style="
+            font-size: 70px;
+            font-weight: 600;
+            font-family: Magneto;
+            color: #fdfdfe;
+            text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3,
+              0px 0px 10px #b393d3, 0px 0px 20px #b393d3;
+          "
+        >
+          Sawii
+        </div>
+        <div class="col-12">
+          <br />
+          <!-- Title -->
+          <div class="col-12">
+            <div class="input-group">
+              <input
+                id="title"
+                type="text"
+                class="form-control"
+                placeholder="Title"
+              />
+            </div>
+          </div>
+          <br />
+          <!-- URL -->
+          <div class="col-12">
+            <div class="input-group">
+              <span class="input-group-text" id="basic-addon3">URL</span>
+              <input
+                id="basic-url"
+                type="text"
+                aria-describedby="basic-addon3 basic-addon4"
+                class="form-control"
+              />
+            </div>
+          </div>
+          <br />
+          <p id="complain" class="text-center" style="color: red"></p>
+          <!-- BUTTON -->
+          <div class="col-12 text-center">
+            <button id="button" type="button" class="btn btn-success">
+              Add Link
+            </button>
+          </div>
+
+          <!-- Items -->
+          <div class="row" style="margin: 5%">
+            <div class="col-12">
+              <div id="list" class="list-group"></div>
+            </div>
+          </div>
+
+          <br />
+        </div>
+      </div>
+    </div>
+    <script src="Script.js"></script>
+  </body>
+</html>
