@@ -3,7 +3,7 @@
   "version": "1.0",
   "name": "Sawii",
   "action": {
-    "default_popup": "demoIndex.html",
+    "default_popup": "Index.html",
     "default_icon": "logo.png"
   }
 }
