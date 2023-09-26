@@ -55,6 +55,7 @@ urlElement.onclick = function () {
 function addToList(aUrl, aTitle) {
   // to add Title to linkList
   linkList.push(aTitle);
+  localStorage.setItem(aTitle, aUrl);
 
   // to add Title to linkList with a delete button
   listElement.innerHTML += `<div id="${aTitle}" class="list-group-item list-group-item-action">
